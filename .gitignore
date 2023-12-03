@@ -13,3 +13,8 @@ Saved
 *.xcodeproj
 *.xcworkspace
 .DS_Store
+
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
