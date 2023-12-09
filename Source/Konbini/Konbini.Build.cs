@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class Amoga1 : ModuleRules
+public class Konbini : ModuleRules
 {
-	public Amoga1(ReadOnlyTargetRules Target) : base(Target)
+	public Konbini(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

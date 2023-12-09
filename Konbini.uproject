@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "Amoga1",
+			"Name": "Konbini",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

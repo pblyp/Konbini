@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class Amoga1Target : TargetRules
+public class KonbiniEditorTarget : TargetRules
 {
-	public Amoga1Target(TargetInfo Target) : base(Target)
+	public KonbiniEditorTarget(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Game;
+		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-		ExtraModuleNames.AddRange( new string[] { "Amoga1" } );
+		ExtraModuleNames.AddRange( new string[] { "Konbini" } );
 	}
 }
