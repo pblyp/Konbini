@@ -12,6 +12,8 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+*.code-workspace
+Makefile
 .DS_Store
 
 !Build/*/
