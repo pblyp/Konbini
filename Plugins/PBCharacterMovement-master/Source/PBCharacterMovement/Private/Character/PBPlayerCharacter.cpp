@@ -70,6 +70,10 @@ void APBPlayerCharacter::Tick(float DeltaTime)
 	if (bDeferJumpStop)
 	{
 		bDeferJumpStop = false;
+		// Don't stop jumping if move.Pogo is enabled
+		if (CVarAutoBHop.GetValueOnGameThread() != 0 || bAutoBunnyhop) {
+			return;
+		}
 		Super::StopJumping();
 	}
 }
