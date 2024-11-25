@@ -8,7 +8,7 @@ public class KonbiniTarget : TargetRules
 	public KonbiniTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.V4;
 
 		ExtraModuleNames.AddRange( new string[] { "Konbini" } );
 	}
